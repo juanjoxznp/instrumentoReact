@@ -10,7 +10,10 @@ function App() {
   
   return (
     <>
+ 
+//Llamo a Welcome antes de Routes para que me muestre siempre el componente al abrir la pagina
 
+  <Welcome></Welcome>
     <Routes>
 
       <Route path='/paint' element={ <Paint />} />
